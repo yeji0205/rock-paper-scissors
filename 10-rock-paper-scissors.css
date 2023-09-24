@@ -1,0 +1,32 @@
+
+			body {
+					background-color: rgb(25, 25, 25);
+					color: white;
+					font-family: Arial;
+					margin-left: 5%;
+			}
+			.title {
+				font-size: 30px;
+				font-weight: bold;
+			}
+			.move-icon {
+				height: 50px;
+			}
+			.move-btn {
+				background-color: transparent;
+				border: 5px solid white;
+				border-radius: 60px;
+				width: 120px;
+				height: 120px;
+				margin-right: 10px;
+				cursor: pointer;
+			}
+			.reset-btn {
+				padding: 8px 12px;
+				font-size: 15px;
+				cursor: pointer;
+			}
+			.js-score {
+				padding-top: 30px;
+				font-size: 20px;
+			}

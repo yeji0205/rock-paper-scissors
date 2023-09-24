@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!----------------------------------------------
+
+	When we click a button
+	1. Computer randomly selects a move
+	2. Compare the moves to get the result
+	3. update the score
+	4. Display the result in a popup
+
+------------------------------------------------>
+
+<html>
+	<head>
+		<title>	10. Rock Paper Scissors </title>
+		<link rel="stylesheet" href="styles/10-rock-paper-scissors.css">
+	</head>
+
+	<body>
+		<p class="title">Rock Paper Scissors</p>
+		<button onclick="getResult('Rock')" class="move-btn">
+						<img src="/img/Rock-emoji.png" class="move-icon">
+						</button>
+		<button onclick="getResult('Paper')" class="move-btn">
+						<img src="/img/Paper-emoji.png" class="move-icon">
+						</button>
+		<button onclick="getResult('Scissors')" class="move-btn">
+						<img src="/img/Scissors-emoji.png" class="move-icon">
+						</button>
+
+		<p class="js-result title" ></p>
+		<p class="js-move" >
+			YOU
+			<img src="/img/Scissors-emoji.png" class="move-icon">
+			<img src="/img/Paper-emoji.png" class="move-icon">
+			COMPUTER
+		</p>
+		<p class="js-score" ></p>
+
+		<button class="reset-btn" onclick="resetScore()">Reset Score</button>
+
+		<script src="scripts/10-rock-paper-scissors.js"></script>
+	</body>
+
+</html>
